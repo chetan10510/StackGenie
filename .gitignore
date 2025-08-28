@@ -1,0 +1,62 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environment
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Data & logs
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+logs/
+*.log
+``````
+# Model files & embeddings
+*.bin
+*.pkl
+*.npy
+*.npz
+*.pt
+*.h5
+*.onnx
+faiss_index/
+vector_store/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Editor & IDE
+.vscode/
+.idea/
+
+# Streamlit cache
+.streamlit/
+
+# Build / dist
+build/
+dist/
+*.egg-info/
+
+# Environment variables
+.env
+.env.*
+
+
+
+
+resolute-future-470007-a4-8f1239adae36.jsongcp_key.json
+gcp_key.json
+gcp/*.json
