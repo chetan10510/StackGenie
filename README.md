@@ -11,8 +11,7 @@ StackGenie is a Python-based tool that integrates with Google BigQuery to fetch,
 
 
 
-bash
-Copy code
+
 
 ## Setup Instructions
 
@@ -22,8 +21,7 @@ Copy code
    cd StackGenie
 Install dependencies
 
-bash
-Copy code
+
 pip install -r requirements.txt
 Set up GCP credentials
 
@@ -33,26 +31,21 @@ The .gitignore ensures that credentials are not pushed to GitHub.
 
 Run the application
 
-bash
-Copy code
 python app.py
 Run tests
 
-bash
-Copy code
+
 python test_bq.py
 python src/stackgenie/test_bigquery.py
 python test_query.py
 Docker Setup
 Build the Docker image:
 
-bash
-Copy code
+
 docker build -t stackgenie:latest ./docker
 Run the Docker container:
 
-bash
-Copy code
+
 docker run -it stackgenie:latest
 Notes
 Ensure your GCP project has the necessary BigQuery permissions.
@@ -63,4 +56,5 @@ Author
 Chetan Kumar Korivi
 Email: korivichetan5@gmail.com
 GitHub: https://github.com/chetan10510
+
 
