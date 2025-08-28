@@ -9,24 +9,7 @@ StackGenie is a Python-based tool that integrates with Google BigQuery to fetch,
 - **Docker Support**: Containerized environment to ensure consistent dependencies.
 - **Testing**: Includes test scripts for validating BigQuery queries.
 
-## Project Structure
 
-StackGenie/
-│
-├── app.py # Main application entry point
-├── docker/
-│ └── Dockerfile # Docker configuration
-├── src/
-│ ├── a/ # Additional modules
-│ ├── ingest/
-│ │ └── stack_overflow_bigquery.py # Data ingestion scripts
-│ └── stackgenie/
-│ └── test_bigquery.py # Query test scripts
-├── test_bq.py # Standalone BigQuery test
-├── test_query.py # Additional query tests
-├── requirements.txt # Python dependencies
-├── .gitignore # Ignored files, e.g., GCP credentials
-└── README.md # Project documentation
 
 bash
 Copy code
@@ -80,3 +63,4 @@ Author
 Chetan Kumar Korivi
 Email: korivichetan5@gmail.com
 GitHub: https://github.com/chetan10510
+
